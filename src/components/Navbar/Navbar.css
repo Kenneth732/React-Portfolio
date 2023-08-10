@@ -21,6 +21,13 @@
 .desktopMenuListItem{
     margin: 1rem;
     cursor: pointer;
+    transition: .6s ease;
+}
+
+.desktopMenuListItem:hover{
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
 }
 
 .desktopMenuBtn{
