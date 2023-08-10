@@ -1,10 +1,10 @@
 import React from 'react'
-import bg from '../assets/image.png'
+import bg from '../assets/kent-removebg.png'
 import { Link } from 'react-scroll'
 import btn from '../assets/hireme.png'
 import './Intro.css'
 
-function Intro() {
+export default function Intro() {
   return (
     <div id='intro'>
         <div className='introContent'>
@@ -27,6 +27,4 @@ function Intro() {
         <img src={bg} className='bg' alt='profile' />
     </div>
   )
-}
-
-export default Intro
+} 
