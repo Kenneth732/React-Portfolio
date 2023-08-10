@@ -17,7 +17,7 @@ export default function Intro() {
                 </span> 
                 Web Developer
             </span>
-            <p className='introPara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit, diam eu vestibulum porttitor, elit orci viverra arcu, ut pretium leo turpis at enim. In non magna euismod urna efficitur condimentum</p>
+            <p className='introPara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit, <br></br> diam eu vestibulum porttitor, elit orci viverra arcu, <br></br> ut pretium leo turpis at enim. In non magna euismod urna efficitur <br></br> condimentum</p>
             <Link>
               <button className='btn'>
                 <img src={btn} className='btn-img' alt='btn' /> Hire Me
