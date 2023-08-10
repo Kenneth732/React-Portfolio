@@ -10,12 +10,14 @@
     position: sticky;
     top: 0;
     z-index: 3;
+    border: #fff solid 2px;
 }
 
 .logo{
     object-fit: cover;
     height: 3rem;
     width: 4rem;
+    cursor: pointer;
 }
 
 .desktopMenuListItem{
