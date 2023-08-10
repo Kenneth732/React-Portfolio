@@ -1,21 +1,48 @@
-import React from 'react'
-import Logo from '../../assets/logo.png'
-import Link from 'react-scroll'
+import { Link } from 'react-scroll';
+import logo from '../assets/logo.png'
+// import Link from 'react-scroll'
+import './Navbar.css'
 
-function Navbar() {
+export default function Navbar() {
   return (
     <div>
       <nav className='navbar'>
-        <img src={Logo} className='logo' />
+        <img src={logo} className='logo' alt='logo' />
         <div className='desktopMenu'>
-          <Link classNamedesktopMenuListItem></Link>
+          <Link
+            className='desktopMenuListItem'
+            to='home'
+            smooth={true}
+            duration={500} >
+            Home
+          </Link>
+          <Link
+            className='desktopMenuListItem'
+            to='client'
+            smooth={true}
+            duration={500} >
+            Client
+          </Link>
+          <Link
+            className='desktopMenuListItem'
+            to='about'
+            smooth={true}
+            duration={500} >
+            About
+          </Link>
+          <Link
+            className='desktopMenuListItem'
+            to='portfolio'
+            smooth={true}
+            duration={500} >
+            Portfolio
+          </Link>
+          {/* Other links */}
         </div>
         <button className='' type='submit'>
-          <img src='' className='desktopMenuImg' /> Contact Me
+          <img src='' className='desktopMenuImg' alt='btn' /> Contact Me
         </button>
       </nav>
     </div>
-  )
+  );
 }
-
-export default Navbar
